@@ -1,0 +1,535 @@
+<!-- Website coded by Varun Chitturi contact: varunchitturi@icloud.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Hacks</title>
+    <link rel="icon" type="image/png" href="Images/Mission-logo.jpg">
+    <link type="text/css" rel="stylesheet" href="Index/style.css"/>
+    <link rel="stylesheet" href="modules/bootstrap.css">
+    <script src="https://kit.fontawesome.com/4214d79748.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg">
+    <a class="navbar-brand" href="#title-container-fluid"><img  class="logo" src="Images/Mission-logo.jpg"></a>
+    <button class="navbar-toggler navbar-light collapsed" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="main-navigation">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#title-container-fluid">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#faq-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#schedule-link">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team-container">Our Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sponsor-link">Sponsors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#prize-fluid">Prizes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#rule-fluid">Rules</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="title-container-fluid" class="container-fluid">
+    <div id="title-container" class="container jusify-content-center text-center">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+        <div class="row text-center justify-content-center">
+            <div class="col justify-content-center text-center">
+                <h1 class="text-left braces">[</h1>
+                <h1 id="Mission-Hacks-Title">Mission Hacks
+                    <span id="Mission-Hacks-Version" class="txt-rotate" data-period="200" data-rotate='[ "1.0", "2.0"]'></span>
+                </h1>
+                <div class="code-type" id="parent"><h3>Date = <span class="green-color">November 23-27</span></h3><div id="border" class="code-type-border"></div></div>
+                <div class="code-type" id="parent-2"><h3>Location = <span class="green-color">Online</span></h3><div id="border-2" class="code-type-border"></div></div>
+                <h1 class="text-right braces">]</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <a id="sign-up" class="gradient-button text-white text-center">Sign Up</a>
+            <a id="discord" class=" gradient-button fa fa-discord text-white text-center"></a>
+        </div>
+        <div id="schedule-link"></div>
+    </div>
+
+</div>
+
+<div id="schedule-container" class="container-fluid text-center justify-content-center">
+    <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Check-in and Opening Ceremony</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 23
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            2:00pm - 3:00pm
+          </span>
+                </div>
+                <div id="handshake-icon" class="t-icon"><h1 class="fa-handshake fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        ​
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+            </div> <!-- cd-timeline-img -->
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>HTML Workshop</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 23
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            4:00pm - 5:00pm
+          </span>
+                </div>
+                <div id="html-icon" class="t-icon"><h1 class="fa-html5 fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        ​
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Check-in</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 24
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            2:00pm - 3:00pm
+          </span>
+                </div>
+                <div class="t-icon submit-icon"><h1 class="fa-check fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Python Workshop</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 24
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            4:00pm - 5:00pm
+          </span>
+                </div>
+                <div id="python-icon" class="t-icon"><h1 class="fa-python fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        ​
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Check-in</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 25
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            2:00pm - 3:00pm
+          </span>
+                </div>
+                <div class="t-icon submit-icon"><h1 class="fa-check fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+            </div> <!-- cd-timeline-img -->
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>CAD and Fusion Workshop</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 25
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            4:00pm - 5:00pm
+          </span>
+                </div>
+                <div id="cube-icon" class="t-icon"><h1 class="fa-cubes fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        ​
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Check-in</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 26
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            4:00pm - 6:00pm
+          </span>
+                </div>
+                <div class="t-icon submit-icon"><h1 class="fa-check fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+            </div>
+            ​
+            <div class="cd-timeline-content hidden">
+                <h2>Raffle</h2>
+                <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 26
+          </span>
+                    <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            4:00pm - 6:00pm
+          </span>
+                </div>
+                <div id="raffle-icon" class="t-icon"><h1 class="fa-ticket fa"></h1></div>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                </div>
+                ​
+                <div class="cd-timeline-content hidden">
+                    <h2>Submissions Due</h2>
+                    <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 27
+          </span>
+                        <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            9:00 am
+          </span>
+                    </div>
+                    <div id="sumbit-icon" class="t-icon"><h1 class="fa-send fa"></h1></div>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                </div>
+                ​
+                <div class="cd-timeline-content hidden">
+                    <h2>Awards Ceremony</h2>
+                    <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            November 27
+          </span>
+                        <span class="timeline-content-info-date">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            7:00pm - 8:00pm
+          </span>
+                    </div>
+                    <div id="award-icon" class="t-icon"><h1 class="fa-award fa"></h1></div>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        </div> <!-- cd-timeline-block -->
+    </section> <!-- cd-timeline -->
+</div>
+<div id="team-container" class="container-fluid text-center justify-content-center">
+    <h1 id="team-title" class="text-white">Meet The Team</h1>
+    <div class="">
+    <div class="row justify-content-center text-white text-center" id="team-title-container">
+        <div class="col-lg-3 col-xl-3 col-sm-5 col-md-5 member" id="member-1">
+            <img src="Images/Sai.png"/>
+            <br>
+            <br>
+            <br>
+            <h3><span class="brackets-3">< </span><span>Sai Kolla</span><span class="brackets-3"> ></span></h3>
+            <br>
+            <div class="hidden hr">
+                <hr/>
+            </div>
+            <br>
+            <h4 class="text-muted position">Director of Publicity</h4>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-sm-5 col-md-5 member" id="member-2">
+            <img src="Images/yash.png"/>
+            <br>
+            <br>
+            <br>
+            <h3><span class="brackets-3">< </span><span>Yash Jain</span><span class="brackets-3"> ></span></h3>
+
+            <br>
+            <div class="hidden hr">
+                <hr/>
+            </div>
+            <br>
+            <h4 class="text-muted position">Founder</h4>
+
+        </div>
+        <div class="col-lg-3 col-xl-3 col-sm-5 col-md-5 member" id="member-3">
+            <img src="Images/Mukul.png"/>
+            <br>
+            <br>
+            <br>
+            <h3><span class="brackets-3">< </span><span>Mukul Natarajan</span><span class="brackets-3"> ></span></h3>
+            <br>
+            <div class="hidden hr">
+                <hr/>
+            </div>
+            <br>
+            <h4 class="text-muted position">Director of Tech</h4>
+        </div>
+    </div>
+    </div>
+</div>
+<div id="sponsor-link"></div>
+<div class="container-fluid" id="sponsor-fluid">
+    <div id="sponsor-container" class="container justify-content-center text-center text-white">
+        <h1>Thank You To Our Sponsors</h1>
+    </div>
+    <div id="sponsor-row" class="row justify-content-center text-center">
+    <div class="col justify-content-center text-white text-center sponsor-col">
+        <img id="git-sponsor" class="sponsor-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+    </div>
+    <div class="col justify-content-center text-white text-center sponsor-col">
+        <img id="sticker-sponsor" class="sponsor-img" src="https://images.dailykos.com/images/810817/story_image/sticker-mule-logo.png?1590733545"/>
+
+    </div>
+    <div class="col justify-content-center text-white text-center sponsor-col">
+        <img id="bank-sponsor" class="sponsor-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsXiXzehv2q67Cmn5xMXVczUwCDhHE2lteLw&usqp=CAU"/>
+
+    </div>
+    </div>
+</div>
+<div class="container-fluid justify-content-center text-center" id="prize-fluid">
+    <div class="justify-content-center text-center" id="prize-container">
+        <h1 class="text-white">Prizes</h1>
+        <br>
+        <br>
+        <br>
+        <div class=" row justify-content-center text-center">
+            <div class="prize col-lg-3 col-md-5 justify-content-center text-center ">
+                <img id="spectacles" class="prize-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlRja_pnGlvg2PptqZwz67uTSUWxF9-iHGAA&usqp=CAU">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4 class="text-white">Snapchat Spectacles</h4>
+                <hr/>
+                <div class="place-1">
+                    <h4 class="text1">First Place</h4>
+                </div>
+            </div>
+            <div class="prize col-lg-3 col-md-5 justify-content-center text-center">
+                <img id="headset" src="https://media.istockphoto.com/vectors/esports-gaming-headset-icon-vector-id1201542721?k=6&m=1201542721&s=170667a&w=0&h=DfI6oHw8Od8VVw4rVped3BtYa6UvZk8w9KbkhXocjI8=">
+                <br>
+                <h4 class="text-white">HyperX Headset</h4>
+                <hr/>
+                <div class="place-2">
+                    <h4 class="text2">Second Place</h4>
+                </div>
+            </div>
+            <div class="prize col-lg-3 col-md-5 justify-content-center text-center">
+                <img id="google-home" src="data:image/jpeg;base64,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">
+                <h4 class="text-white">Google Home Mini</h4>
+                <hr/>
+                <div class="place-3">
+                <h4 class="text3">Third Place</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="faq-fluid">
+    <div id="faq-link"></div>
+    <div id="why-container" class="text-white container justify-content-center text-center">
+        <div class="row justify-content-center text-center">
+            <h1 id="faq-title"><span class="color-pink">< </span><span class="faq"> Frequently Asked Questions </span><span class="color-pink"> /></span></h1>
+        </div>
+        <div class="col text-center justify-content-center">
+            <ul class=".faq-ul">
+                <div class="faq-l-c">
+                    <li class="faq-li hidden">
+                        <div class="col">
+                            <h3><span class="braces-2">{ </span><span>What is a Hackathon?</span><span class="braces-2"> }</span></h3>
+                            <span class="faq-text">An online hackathon is a 4-day competition where teams identify and solve problems using technology.
+                        A hackathon does not necessarily have anything to do with breaking (hacking) into computers by using code and revolves around building a finished product that could be shipped and distributed.
+                        Events like these are great networking and socializing opportunities as there will be games and workshops to help you get to know each other as well as meet others in the tech field.
+                        </span>
+                        </div>
+                    </li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>What is MissionHacks?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">MissionHacks 2.0 is the largest online high school hackathon in the bay area with an expected over 200 attendees! We look forward to seeing you on November 23-27 through Zoom!
+                        </span>
+                    </div></li>
+                    <div class="faq-l-c">
+                        <li class="faq-li hidden"><div class="col">
+                            <h3><span class="braces-2">{ </span><span>Who can attend?</span><span class="braces-2"> }</span></h3>
+                            <span class="faq-text">Anyone in high school (between the age of 13 and 18) can attend this event. A hackathon is not limited to coders and computer scientists: anyone with a passion to learn is welcome. We encourage students of all academic backgrounds to participate. We have prizes that will award all aspects of app development cycle. Some categories may include, but are not limited to, best design, best beacon hack, and best theme hack.
+                        </span>
+                        </div></li>
+                    </div>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>What should I bring?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">
+                        Make sure to bring a sleeping bag, pillow, blanket, necessary toiletries, and a signed parent release form. You may also bring your own laptop, phone, and necessary chargers. Everyone will be provided with an iMac for the duration of the event, so a laptop is not required. If you plan on using hardware in your hack, bring whatever you need.
+                    </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>What is the cost of attendance?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">The event is absolutely free. Thanks to our wonderful sponsors, we are able to provide you with great swag, prizes, workshops, and food.
+                        </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>What are the rules of the competition?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">Please see the MLH Code of Conduct (http://mlh.io/code-of-conduct) and the Rules and Regulations below
+                        </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>What is the goal/theme?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">The theme of the hackathon is online health. You are encouraged to solve problems that people are facing during this pandemic. You may even begin to use your product after the event!
+                        </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>How many people per team?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">The minimum number of people per team is 2 and the maximum is 4. We want to encourage teamwork without giving too much advantages to teams with larger people. If you are coming to the hackathon without a team, we will have time for you to find a group. If your team is too large, we require that you split your team.
+
+                        </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>Can I win in multiple categories?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">Yes, it is possible, but unlikely. We recommend focusing on a single category to increase the likelihood of winning a prize.
+                        </span>
+                    </div></li>
+                </div>
+                <div class="faq-l-c">
+                    <li class="faq-li hidden"><div class="col">
+                        <h3><span class="braces-2">{ </span><span>Do I need to know how to code?</span><span class="braces-2"> }</span></h3>
+                        <span class="faq-text">Of course not! We will have some workshops to help you get started coding, and not everyone has to work on the software aspect of a product. Every product has many different aspects to it, and coding is just one. Don’t worry if you don’t know how to code, you can always find a team, or ask any of our staff, and they will be willing to help!
+                        </span>
+                    </div></li>
+                </div>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid text-center justify-content-center" id="rule-fluid">
+    <div class="container justify-content-center text-center text-white" id="rule-container">
+        <h1><span class="color-pink">< </span>Rules<span class="color-pink"> /></span></h1>
+        <br>
+        <br>
+        <br>
+        <p id="rule-text">Be respectful. Harassment and abuse are never tolerated. If you are in a situation that makes you uncomfortable at an MLH Member Event, if the event itself is creating an unsafe or inappropriate environment, or if interacting with a MLH representative or event organizer makes you uncomfortable, please report it using the procedures included in this document.
+            Major League Hacking (MLH) stands for inclusivity. We believe that every single person has the right to hack in a safe and welcoming environment.
+            Harassment includes but is not limited to offensive verbal or written comments related to gender, age, sexual orientation, disability, physical appearance, body size, race, religion, social class, economic status, veteran status, sexual images, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. If what you’re doing is making someone feel uncomfortable, that counts as harassment and is enough reason to stop doing it.
+            Participants asked to stop any harassing behavior are expected to comply immediately.
+            Sponsors, judges, mentors, volunteers, organizers, MLH staff, and anyone else at the event are also subject to the anti-harassment policy. In particular, attendees should not use sexualised images, activities, or other material both in their hacks and during the event. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.
+            If a participant engages in harassing behavior, MLH may take any action it deems appropriate, including warning the offender or expulsion from the event with no eligibility for reimbursement or refund of any type.
+            If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact MLH using the reporting procedures defined below.
+
+            MLH representatives will be happy to help participants contact campus security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event. We value your attendance.
+            We expect participants to follow these rules at all hackathon venues, online interactions in relation to the event, hackathon-related social events,
+        </p>
+    </div>
+</div>
+</body>
+<footer>
+    <div class="container justify justify-content-center text-center">
+        <br>
+
+        <h6 class="text-muted">2020 © Mission Hacks</h6>
+        <br>
+    </div>
+</footer>
+<link rel="stylesheet" href="modules/all.min.css">
+<link rel="stylesheet" type="text/css" href="modules/font-awesome.css">
+<script src="modules/jquery.js"></script>
+<link href="modules/bootstrap.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="modules/mdbootstrap.js"></script>
+<script type="text/javascript" src="modules/jquery-3.3.1.slim.js"></script>
+<script type="text/javascript" src="modules/jquery.js"></script>
+<script type="text/javascript" src="modules/bootstrap.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" rel="stylesheet">
+<script type="text/javascript" src="Index/script.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</html>
