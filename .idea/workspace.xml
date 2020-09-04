@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:whitesource" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="030a7c97-e820-4ea9-8c99-98993ede996d" name="Default Changelist" comment="" />
+    <list default="true" id="030a7c97-e820-4ea9-8c99-98993ede996d" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/Images/suson 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gvwdxs8TMKXnwW77wB7WCUonfk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,18 +90,42 @@
       <option name="presentableId" value="Default" />
       <updated>1599008465388</updated>
       <workItem from="1599008466561" duration="21804000" />
-      <workItem from="1599079322040" duration="31588000" />
+      <workItem from="1599079322040" duration="31961000" />
+      <workItem from="1599197564600" duration="974000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1599178814497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599178814497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599176552950">
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599198046761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1599176552950" />
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1599198046761" />
     <state width="1419" height="180" key="GridCell.Tab.0.bottom" timestamp="1599173614191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -166,5 +222,9 @@
     <state width="1419" height="104" key="GridCell.Tab.3.right/0.0.1440.844/1440.-24.1920.1055/-1920.-14.1920.1055@0.0.1440.844" timestamp="1599020900132" />
     <state width="1419" height="291" key="GridCell.Tab.3.right/0.0.1440.845/1440.-24.1920.1055/-1920.-14.1920.1055@0.0.1440.845" timestamp="1599101767152" />
     <state width="1419" height="180" key="GridCell.Tab.3.right/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1599173614206" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1599178927913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-49.1920.1080/-1920.-39.1920.1080@0.0.1440.900" timestamp="1599178927913" />
   </component>
 </project>
